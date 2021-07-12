@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Shehzaan Mansuri",
+    "age": "17",
+    "height": "182",
+    "gender": "male",
+    "hair_color": "brown"
+  },
+  {
+    "name": "Shamshaad Khan",
+    "age": "19",
+    "height": "172",
+    "gender": "male",
+    "hair_color": "black"
+  },
+  {
+    "name": "Naushad Khan",
+    "age": "20",
+    "height": "183",
+    "gender": "female",
+    "hair_color": "black"
+  },
+  {
+    "name": "Faisal Khan",
+    "age": "23",
+    "height": "170",
+    "gender": "male",
+    "hair_color": "black"
+  }
+]
