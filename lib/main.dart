@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
                 .loadString('load_json/person.json'),
             builder: (context,  snapshot) {
 
-              var mydata = json.decode(toString());
+              var mydata = json.decode(snapshot.data.toString());
 
               return ListView.builder(
                 itemBuilder: (BuildContext context, int index) {
@@ -41,6 +41,7 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         Text("Name: " + mydata[index]['name']),
                         Text("Age: " + mydata[index]['age']),
+                        Text("Height: " + mydata[index]['height']),
                         Text("Hair Color: " + mydata[index]['hair color']),
                         Text("Gender: " + mydata[index]['gender']),
                       ],
